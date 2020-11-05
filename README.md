@@ -62,6 +62,19 @@ spec:
 ```
 ---
 ## PipeLineRun
+**- Way1. Using kubectl with yaml**
+```yaml
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  generateName: hello-goodbye-run-
+  namespace: default
+spec:
+  pipelineRef:
+    name: hello-goodbye
+```
+
+**- Way2. Using tkn (Tekton Client)**
 ```bash
 $ tkn pipeline start hello-goodbye --dry-run > pipelineRun-hello-goodbye.yaml
 $ kubectl create -f  pipelineRun-hello-goodbye.yaml
