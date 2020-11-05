@@ -16,6 +16,11 @@ NAME                                           READY   STATUS              RESTA
 tekton-pipelines-controller-6c6ffb8d9c-mpfl4   0/1     ContainerCreating   0          7s
 tekton-pipelines-webhook-7594fd4c9b-7w9dz      0/1     ContainerCreating   0          7s
 ```
+
+---
+## How to Install Tekton CLI (tkn)
+[https://github.com/tektoncd/cli](https://github.com/tektoncd/cli)
+
 ---
 ## Step, Task, Pipeline, TaskRun, PipelineRun
 - [Task](https://github.com/rolroralra/hello-tekton#task)
