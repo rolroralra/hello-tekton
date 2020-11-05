@@ -24,7 +24,7 @@ spec:
 ```
 ---
 ## TaskRun
-1. Using kubectl with yaml
+**1. Using kubectl with yaml**
 ```yaml
 apiVersion: tekton.dev/v1beta1
 kind: TaskRun
@@ -35,7 +35,7 @@ spec:
     name: hello
 ```
 
-2. Using tkn (Tekton Client)
+**2. Using tkn (Tekton Client)**
 ```bash
 $ tkn task start hello --dry-run > taskRun-hello.yaml
 $ kubectl create -f taskRun-hello.yaml
