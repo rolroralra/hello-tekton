@@ -4,6 +4,16 @@
 <br/>
 
 ---
+## How to Install Tekton
+```bash
+$ kubectl apply -f https://storage.googleapis.com/tekton-releases/pipeline/latest/release.yaml
+
+$ kubectl get pods -n tekton-pipelines
+NAME                                           READY   STATUS              RESTARTS   AGE
+tekton-pipelines-controller-6c6ffb8d9c-mpfl4   0/1     ContainerCreating   0          7s
+tekton-pipelines-webhook-7594fd4c9b-7w9dz      0/1     ContainerCreating   0          7s
+```
+---
 ## Step, Task, Pipeline, TaskRun, PipelineRun
 - [Task](https://github.com/rolroralra/hello-tekton#task)
 - [TaskRun](https://github.com/rolroralra/hello-tekton#taskrun)
