@@ -4,8 +4,8 @@ metadata:
   name: hello
 spec:
   steps:
-    - name: hello
-      image: ubuntu
-      script: |
-        set -e
-        echo "Hello World!"
+  - name: hello
+    image: ubuntu
+    script: |
+      set -e
+      echo "Hello World!"
