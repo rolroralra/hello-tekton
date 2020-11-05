@@ -1,11 +1,11 @@
 ## Tekton Katacoda Tutorial
-[https://katacoda.com/tektoncd/](https://katacoda.com/tektoncd/)
+> [https://katacoda.com/tektoncd/](https://katacoda.com/tektoncd/)
 
 <br/>
 
 ---
 ## How to Install Tekton
-[https://github.com/tektoncd/pipeline](https://github.com/tektoncd/pipeline)
+> [https://github.com/tektoncd/pipeline](https://github.com/tektoncd/pipeline)
 <br/>
 
 ```bash
@@ -19,7 +19,7 @@ tekton-pipelines-webhook-7594fd4c9b-7w9dz      0/1     ContainerCreating   0    
 
 ---
 ## How to Install Tekton CLI (tkn)
-[https://github.com/tektoncd/cli](https://github.com/tektoncd/cli)
+> [https://github.com/tektoncd/cli](https://github.com/tektoncd/cli)
 
 ```bash
 ## Linux AMD64
@@ -49,6 +49,8 @@ $ sudo tar xvzf tkn_0.13.1_Darwin_x86_64.tar.gz -C /usr/local/bin tkn
 
 ---
 ## Task
+> [https://github.com/tektoncd/pipeline/blob/master/docs/tasks.md#task](https://github.com/tektoncd/pipeline/blob/master/docs/tasks.md#task)
+
 ```yaml
 apiVersion: tekton.dev/v1beta1
 kind: Task
@@ -64,6 +66,8 @@ spec:
 ```
 ---
 ## TaskRun
+> [https://github.com/tektoncd/pipeline/blob/master/docs/taskruns.md#taskruns](https://github.com/tektoncd/pipeline/blob/master/docs/taskruns.md#taskruns)
+
 **- Way1. Using kubectl with yaml**
 ```yaml
 apiVersion: tekton.dev/v1beta1
@@ -84,6 +88,8 @@ $ tkn task start hello
 ```
 ---
 ## PipeLine
+> [https://github.com/tektoncd/pipeline/blob/master/docs/pipelines.md#pipelines](https://github.com/tektoncd/pipeline/blob/master/docs/pipelines.md#pipelines)
+
 ```yaml
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
@@ -102,6 +108,8 @@ spec:
 ```
 ---
 ## PipeLineRun
+> [https://github.com/tektoncd/pipeline/blob/master/docs/pipelines.md#pipelines](https://github.com/tektoncd/pipeline/blob/master/docs/pipelines.md#pipelines)
+
 **- Way1. Using kubectl with yaml**
 ```yaml
 apiVersion: tekton.dev/v1beta1
@@ -124,4 +132,7 @@ $ tkn pipeline start hello-goodbye
 
 ---
 ## PipelineResource
+> [https://github.com/tektoncd/pipeline/blob/master/docs/resources.md#pipelineresources](https://github.com/tektoncd/pipeline/blob/master/docs/resources.md#pipelineresources)
+<br/>
+
 [https://github.com/tektoncd/website/tree/master/tutorials/katacoda/getting-started/src/tekton-katacoda](https://github.com/tektoncd/website/tree/master/tutorials/katacoda/getting-started/src/tekton-katacoda)
