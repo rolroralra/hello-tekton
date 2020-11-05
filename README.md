@@ -63,7 +63,7 @@ spec:
       name: hello
   - name: goodbye
     runAfter: 
-      - hello
+    - hello
     taskRef:
       name: goodbye
 ```
