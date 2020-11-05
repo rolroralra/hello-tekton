@@ -21,6 +21,23 @@ tekton-pipelines-webhook-7594fd4c9b-7w9dz      0/1     ContainerCreating   0    
 ## How to Install Tekton CLI (tkn)
 [https://github.com/tektoncd/cli](https://github.com/tektoncd/cli)
 
+```bash
+## Linux AMD64
+# Get the tar.xz
+$ curl -LO https://github.com/tektoncd/cli/releases/download/v0.13.1/tkn_0.13.1_Linux_x86_64.tar.gz
+# Extract tkn to your PATH (e.g. /usr/local/bin)
+$ sudo tar xvzf tkn_0.13.1_Linux_x86_64.tar.gz -C /usr/local/bin/ tkn
+
+## Mac OS
+$ brew install tektoncd-cli
+
+# Or by the released tarball:
+# Get the tar.xz
+$ curl -LO https://github.com/tektoncd/cli/releases/download/v0.13.1/tkn_0.13.1_Darwin_x86_64.tar.gz
+# Extract tkn to your PATH (e.g. /usr/local/bin)
+$ sudo tar xvzf tkn_0.13.1_Darwin_x86_64.tar.gz -C /usr/local/bin tkn
+```
+
 ---
 ## Step, Task, Pipeline, TaskRun, PipelineRun
 - [Task](https://github.com/rolroralra/hello-tekton#task)
