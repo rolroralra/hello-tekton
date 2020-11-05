@@ -23,8 +23,6 @@ tekton-pipelines-webhook-7594fd4c9b-7w9dz      0/1     ContainerCreating   0    
 - [Pipeline](https://github.com/rolroralra/hello-tekton#pipeline)
 - [PipelineRun](https://github.com/rolroralra/hello-tekton#pipelinerun)
 
-<br/>
-
 ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FciCmoS%2FbtqAqhTWXl6%2FALXIBrHtiCwldyJvRIOjB0%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FciCmoS%2FbtqAqhTWXl6%2FALXIBrHtiCwldyJvRIOjB0%2Fimg.png)
 
 ---
@@ -101,3 +99,7 @@ $ kubectl create -f  pipelineRun-hello-goodbye.yaml
 
 $ tkn pipeline start hello-goodbye
 ```
+
+---
+## PipelineResource
+[https://github.com/tektoncd/website/tree/master/tutorials/katacoda/getting-started/src/tekton-katacoda](https://github.com/tektoncd/website/tree/master/tutorials/katacoda/getting-started/src/tekton-katacoda)
