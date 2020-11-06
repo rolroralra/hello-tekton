@@ -47,6 +47,8 @@ $ sudo tar xvzf tkn_0.13.1_Darwin_x86_64.tar.gz -C /usr/local/bin tkn
 
 ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FciCmoS%2FbtqAqhTWXl6%2FALXIBrHtiCwldyJvRIOjB0%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FciCmoS%2FbtqAqhTWXl6%2FALXIBrHtiCwldyJvRIOjB0%2Fimg.png)
 
+![https://github.com/tektoncd/website/blob/master/tutorials/katacoda/getting-started/images/architecture.png](https://github.com/tektoncd/website/blob/master/tutorials/katacoda/getting-started/images/architecture.png)
+
 ---
 ## Task
 > [https://github.com/tektoncd/pipeline/blob/master/docs/tasks.md#task](https://github.com/tektoncd/pipeline/blob/master/docs/tasks.md#task)
