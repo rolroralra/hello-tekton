@@ -135,4 +135,19 @@ $ tkn pipeline start hello-goodbye
 > [https://github.com/tektoncd/pipeline/blob/master/docs/resources.md#pipelineresources](https://github.com/tektoncd/pipeline/blob/master/docs/resources.md#pipelineresources)
 <br/>
 
-[https://github.com/tektoncd/website/tree/master/tutorials/katacoda/getting-started/src/tekton-katacoda](https://github.com/tektoncd/website/tree/master/tutorials/katacoda/getting-started/src/tekton-katacoda)
+```yaml
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  # The name of the pipeline resource
+  name: example-git
+spec:
+  type: git
+  params:
+  # The revision/branch of the repository
+  - name: revision
+    value: master
+  # The URL of the repository
+  - name: url
+    value: https://github.com/tektoncd/website/
+```
